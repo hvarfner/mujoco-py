@@ -297,7 +297,7 @@ class LinuxGPUExtensionBuilder(MujocoExtensionBuilder):
         fix_shared_library(so_file_path, 'libOpenGL.so', 'libOpenGL.so.0')
         fix_shared_library(so_file_path, 'libEGL.so', 'libEGL.so.1')
         fix_shared_library(so_file_path, 'libmujoco210.so', 'libmujoco210.so')
-        fix_shared_library(so_file_path, 'libglewegl.so', 'libglewegl.so')
+        fix_shared_library(so_file_path, 'libGLEW.so', 'libGLEW.so')
         return so_file_path
 
 
